@@ -1,0 +1,37 @@
+@use "sass:color";
+
+@import "../bootstrap-5.3.0/scss/bootstrap";
+
+$font-stack: "Arial", "Sans-Serif";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: $font-stack;
+    background-image: url('../img/bg-sky.jpg');
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.custom-heading{
+    background-color: #7814D8;
+    color: #fff;
+    text-align: center;
+}
+       
+.innercontainer{
+    padding: 5%;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    background-image: url('../img/logo.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-card{
+    background-color: #fff;
+}

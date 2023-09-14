@@ -1,0 +1,86 @@
+ <div class="innercontainer">
+            <div class="logo"></div>
+            <div class="clearfix">
+                <div class="column">
+                    <p>The Bible describes God's love as being longer, wider, higher and deeper than we can imagine. And it's a journey of discovery that we are all on. It's the kind of love that sent Jesus to become our Saviour. It's the kind of love that cares about the ordinary challenges of life.</p>
+                    <p>We want to welcome, serve, celebrate and affirm every person, and walk with them on that journey. In being faithful to God's will and heart, revealed in the Bible, we will not discriminate on grounds of disability, economic power, ethnicity, gender, gender identity, learning disability, mental health, neurodiversity or sexuality.</p>
+                    <p>To anyone wanting to discover or enquire about faith, to those who want to share in Christian fellowship and use their God-given skills and gifts, Inclusive Church (Bury St Edmunds) welcomes you.</p>
+                </div>
+                <div class="column">
+                    <p>We are a friendly, family-focused evangelical Community Church based on the Horringer Court estate in Bury St Edmunds, Suffolk. We meet at Horringer Court Middle School (that may change after September 2023!)</p>
+                    <h3>Sundays 10:30am</h3>
+                    <p><i>Please contact us here:</i></p>
+                    <p><a href="mailto:stephen@inclusivechurch.uk">stephen@inclusivechurch.uk</a></p>
+                    <i class="fa-brands fa-facebook"></i><p><a href="https://facebook.com/InclusiveBSE">@InclusiveBSE</a></p>
+                    <p>We can't wait to meet you!</p>
+                </div>
+            </div>
+        </div>
+
+//////////////////////////
+        
+.innercontainer{
+    padding: 5%
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width:800px) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+    .container {
+        top: 50%;
+        left: 25%;
+        border-radius: 10%;
+        width: 75%;
+        margin-top: 0%;
+    }
+}
+
+@media (min-width: 600px) {
+    .container
+    {
+        top: 50%;
+        left: 50%;
+        border-radius: 0%;
+        margin-bottom: 0;
+        margin-top: 15%;
+    }
+}
+
+header {
+    background-color: #7814D8;
+    color: #fff;
+    padding: 2.5%;
+    text-align: center;
+    width: 95%;
+}
+
+h1 {
+    font-size: medium;
+}
+
+.logo {
+    height: 100px;
+    background-image: url('../img/logo.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.column h2 {
+    margin-top: 0;
+}
